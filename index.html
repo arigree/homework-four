@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <nav>
+        <div class="logo"></div>
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="signUp.html">Reasons to Sign Up</a>
+        </div>
+        <div class="login">LOGIN</div>
+      </nav>
+      <h1>Agriculture Equipment</h1>
+      <div class="hero"></div>
+      <div class="container">
+        <h1>Discover New Products</h1>
+        <div class="images">
+          <img
+            src="https://www.deere.com/assets/images/common/industries/agriculture/5481164-cp770-cotton-1024x576.jpg"
+            alt=""
+          />
+          <img
+            src="https://www.deere.com/assets/images/region-4/products/tillage/coulter-chisel/r4k030674-r1-768x432.jpg"
+            alt=""
+          />
+          <img
+            src="https://www.deere.com/assets/images/region-4/products/tillage/min-tillage/tillage-render-03062024-768x432.jpg"
+            alt=""
+          />
+          <img
+            src="https://www.deere.com/assets/images/common/industries/agriculture/agriculture-carousel-6m-r4x002531-1366x768.jpg"
+            alt=""
+          />
+          <img
+            src="https://www.deere.com/assets/images/region-4/products/combines/t680/r4x002420_rrd-1365x768.jpg"
+            alt=""
+          />
+          <img
+            src="https://www.deere.com/assets/images/common/products/tractors/9rx-models/r4k034278-rrd-767x431.jpg"
+            alt=""
+          />
+          <img
+            src="https://www.deere.com/assets/images/region-4/industries/agriculture/r4k033522_rrd-2-1024x576.jpg"
+            alt=""
+          />
+          <img
+            src="https://www.deere.com/assets/images/region-4/industries/agriculture/r4k023953_rrd-tech-1024x576.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="modal" style="display: none">
+      <div class="modalBackground closeModal"></div>
+      <div class="alertPanel">
+        <div class="closeBtn closeModal"></div>
+        <div class="feedback">Please Sign In:</div>
+        <div class="success" style="display: none">Successfully Signed In</div>
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <div class="buttons">
+          <button class="signIn">Sign In</button>
+          <button class="closeModal">Close</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="lib/jquery-3.7.1.js"></script>
+    <script type="module" src="model/model.js"></script>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>

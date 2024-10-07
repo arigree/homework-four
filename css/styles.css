@@ -1,0 +1,178 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #D5D5D5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.content {
+  width: 1367px;
+  background-color: white;
+}
+.content h1 {
+  padding-left: 50px;
+}
+
+.hero {
+  background-image: url(../images/tractor.webp);
+  width: 100%;
+  height: 348px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  height: 90px;
+  width: 1367px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  background-image: url(../images/logo.jpg);
+  width: 200px;
+  height: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 100px;
+}
+nav .links {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .links a {
+  color: black;
+  text-decoration: none;
+}
+nav .login {
+  cursor: pointer;
+  background-color: #367C2B;
+  color: white;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 20px;
+  width: 100%;
+}
+.container .images {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container .images img {
+  height: 150px;
+  width: 283px;
+  margin: 30px;
+}
+.container .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .text ul li {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal .modalBackground {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal .alertPanel {
+  position: relative;
+  min-width: 500px;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+.modal .alertPanel .closeBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  padding: 15px;
+}
+.modal .alertPanel .feedBack {
+  font-size: 28px;
+  font-weight: bold;
+}
+.modal .alertPanel .feedBack span {
+  color: red;
+}
+.modal .alertPanel .buttons {
+  margin-top: 40px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.modal .alertPanel .buttons .save {
+  cursor: pointer;
+  padding: 20px 50px;
+  background-color: blue;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+}
+.modal .alertPanel .buttons .close {
+  cursor: pointer;
+  padding: 20px 50px;
+  background-color: grey;
+  border-radius: 30px;
+}
+.modal .loader {
+  color: white;
+  font-size: 26px;
+  opacity: 1;
+}
+@keyframes fade {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+}

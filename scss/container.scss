@@ -1,0 +1,26 @@
+.container {
+  padding: 20px;
+  width: 100%;
+  .images {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    img {
+      height: 150px;
+      width: 283px;
+      margin: 30px;
+    }
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul li {
+      padding: 20px;
+      font-size: 20px;
+    }
+  }
+}

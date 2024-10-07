@@ -1,0 +1,19 @@
+* {
+ margin: 0 auto;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+ background-color: #D5D5D5;
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+.content{
+    width: 1367px;
+    background-color: white;
+    h1{
+        padding-left: 50px;
+    }
+}
